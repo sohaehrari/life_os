@@ -1,8 +1,4 @@
-import { defineConfig } from 'vite'
-import tailwindcss from '@tailwindcss/vite'
+/** @type {import('next').NextConfig} */
+const nextConfig = {};
 
-export default defineConfig({
-  plugins: [
-    tailwindcss(),
-  ],
-})
+module.exports = nextConfig;
